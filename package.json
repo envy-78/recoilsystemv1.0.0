@@ -1,0 +1,26 @@
+{
+  "name": "wolrd-coding-js",
+  "version": "1.0.0",
+  "description": "Vanity Roles is a Discord bot that allows users to receive specific roles on the server based on their set vanity status. When a user sets a certain status, the bot automatically assigns the corresponding role.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jovanje",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "canvas": "^3.2.0",
+    "discord.js": "^14.26.2",
+    "genius-lyrics": "^4.4.7",
+    "lyrics-finder": "^21.7.0",
+    "moment": "^2.30.1",
+    "mongoose": "^5.11.17",
+    "ms": "^2.1.3",
+    "poru": "^5.2.0",
+    "poru-spotify": "^2.0.2",
+    "sharp": "^0.34.5"
+  }
+}

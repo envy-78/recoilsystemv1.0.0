@@ -1,0 +1,16 @@
+{
+  "token": "MTQ5MTU1MzE2NTMxNTkzNjMyNw.Gfvs0h.qBr7dlQkMfUHcp6LPNpL-74bg4FQ-jouyW4mrQ",
+  "clientId": "1491553165315936327",
+  "guildId": "1491182020879978578",
+  "mongourl": "mongodb+srv://getonmy:petrovic2008@cluster0.mvpbths.mongodb.net/?appName=Cluster0",
+  "prefix": ",",
+  "ids": {
+    "roleId": "1492501490634588321",
+    "logChannelId": "1492501693844164648",
+    "welcomeChannelId": "1492501696910463151",
+    "levelChannelId": "1445586021524701204"
+  },
+  "triggerStatuses": ["bunt", "@bunt"],
+  "XP_ADDED_PER_MESSAGE": 15,
+  "LEVEL_MULTIPLIER": 200
+}
