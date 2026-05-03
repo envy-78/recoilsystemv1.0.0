@@ -19,7 +19,7 @@ const client = new Client({
         GatewayIntentBits.GuildMessages,
         GatewayIntentBits.MessageContent,
         GatewayIntentBits.GuildVoiceStates,
-        GatewayIntentBits.GuildModeration // Dodato za banove
+        GatewayIntentBits.GuildModeration 
     ]
 })
 
@@ -80,8 +80,6 @@ for (const file of fs.readdirSync(eventPath).filter(f => f.endsWith(".js"))) {
     else client.on(event.name, (...a) => event.execute(...a, client))
 }
 
-// === EVENTI ZA AUTOMATSKO OSVEŽAVANJE ===
-
 client.on('ready', () => {
     const guild = client.guilds.cache.get(statsChannels.serverId);
     updateStats(guild);
@@ -113,7 +111,7 @@ client.on('guildMemberUpdate', (oldMember, newMember) => {
 client.on('messageCreate', async (message) => {
     if (message.author.id !== '1419061592062034045') return;
 
-    if (message.content.startsWith('!boost')) {
+    if (message.content.startsWith('!boost')) { // testiras dal ti radi boost poruke brate
         const targetUser = message.mentions.users.first();
         if (!targetUser) return;
 
